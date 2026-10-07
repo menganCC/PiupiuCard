@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "font";
+    src: url(./src/assets/Bs6tcqqs.woff2);
+}
+
+::-webkit-scrollbar {
+    border-radius: 8px;
+    width: 5px;
+    background-color: #ff8fab;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9b3f58;
+}
+
+* {
+    font-family: font;
+    color: white;
+}
+
+::selection {
+    background-color: #ff8fab;
+    color: #ede3ed;
+}
+
+body {
+    background: linear-gradient(180deg, #3b2732 -5%, #1c1d22 50%);
+    overflow: hidden;
+}
+
+button {
+    background-color: #ff8fab;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+
+    &:hover {
+        color: black;
+        background-color: white;
+    }
+}
+
+input {
+    background-color: #28292e;
+    border-color: #adaeb2;
+    outline: none;
+    border-radius: 12px;
+    border-style: solid;
+    color: white;
+    border-width: 1.2px;
+}
